@@ -25,6 +25,10 @@ body {
     text-decoration: underline white;
 }
 
+.Blurry {
+    text-shadow: 0px 0px 4px black;
+}
+
 #main-logo {
     width: 100px;
     margin-left: auto;
