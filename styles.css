@@ -1,20 +1,32 @@
 body {
-    color: white;
-    background-image: url("images/background.jpg");
-    background-size: cover;
+    color: #82a5ca;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+
+#main-hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 10px 0 750px 0;
 }
 
 .main-apply__btn {
     background: white;
+    color: #82a5ca;
     border: none;
     padding: 6px 12px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 800;
     font-family: inherit;
 }
 
 .underline {
-    text-decoration: underline;
+    text-decoration: underline white;
+}
+
+#main-logo {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
